@@ -1,64 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<TITLE>2015 Pop Music Quiz</TITLE>
-<meta charset="utf-8"/>
-<!-- Stylesheets -->
-<link rel="stylesheet" href="css/styles.css">
-<link rel="stylesheet" href="styles/style.css"/> 
+<head>
+	<TITLE>2015 Pop Music Quiz</TITLE>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" href="css/styles.css">
+</HEAD>
+<main id="main" role="main">
+    <div class="content"> 
+
+        <section id="quiz">
+            <div id="stats">
+                <div id="stats-score">SCORE: <span class="score">0</span></div>
+                <hr class="clearfix">
+            </div>
+            <div id="question">
+                <div id="icon"><i class="fa fa-bolt"></i></div>
+                <p id="text">[question text goes here]</p>
+                <form>
+                <div><input type="radio" name="ans" value="1"> <span id="option-1">[option one]</span> </div>
+                <div><input type="radio" name="ans" value="2"> <span id="option-2">[option two]</span> </div>
+                <div><input type="radio" name="ans" value="3"> <span id="option-3">[option three]</span> </div>
+                <div><input type="radio" name="ans" value="4"> <span id="option-4">[option four]</span> </div>
+                </form>
+                <button id="answer-btn">Submit Answer</button>    
+            </div>
+        </section>
+
+        <section id="start">
+            <button id="start-btn">START QUIZ</button>
+          
+        </section>    
+
+    </div>
+</main>
+
 <script src="http://code.jquery.com/jquery.min.js"></script>
 <script src="js/app.js"></script>
-<!--Quiz calculation stuff will go here-->
-
-</HEAD>
-<BODY>
-<h1>2016 Grammy Awards Quiz</h1>
-<div id="question_wrapper">
-	<span class="question1">Question #1: What was the album of the year?</span>
-	<br>
-	<div id="answer_holder">
-				<input type="radio" name="option" class="option" value="0"><span class="answer">To Primp a Butterfly</span><br>
-				<input type="radio" name="option" class="option" value="1"><span class="answer">1989</span><br>
-				<input type="radio" name="option" class="option" value="2"><span class="answer">Traveller</span><br>
-				<input type="radio" name="option" class="option" value="3"><span class="answer">Sound and Color</span><br>
-	</div>
-    </br>
-    <span class="question2">Question #2: Who won best new artist?</span>
-	<br>
-	<div id="answer_holder">
-				<input type="radio" name="option" class="option" value="0"><span class="answer">Sam Smith</span><br>
-				<input type="radio" name="option" class="option" value="1"><span class="answer">Tori Kelly</span><br>
-				<input type="radio" name="option" class="option" value="2"><span class="answer">James Bay</span><br>
-				<input type="radio" name="option" class="option" value="3"><span class="answer">Meghan Trainor</span><br>
-	</div>
-    </br>
-    <span class="question3">Question #3: What was the best dance recording?</span>
-	<br>
-	<div id="answer_holder">
-				<input type="radio" name="option" class="option" value="0"><span class="answer">Where Are U Now</span><br>
-				<input type="radio" name="option" class="option" value="1"><span class="answer">Go</span><br>
-				<input type="radio" name="option" class="option" value="2"><span class="answer">Never Catch Me</span><br>
-				<input type="radio" name="option" class="option" value="3"><span class="answer">Runaway (U&I)</span><br>
-	</div>
-    </br>
-    <span class="question4">Question #4:Best Country Album?</span>
-	<br>
-	<div id="answer_holder">
-				<input type="radio" name="option" class="option" value="0"><span class="answer">Montevallo</span><br>
-				<input type="radio" name="option" class="option" value="1"><span class="answer">The Blase</span><br>
-				<input type="radio" name="option" class="option" value="2"><span class="answer">Traveller</span><br>
-				<input type="radio" name="option" class="option" value="3"><span class="answer">Pain Killerr</span><br>
-	</div>
-    </br>
-    <span class="question5">Question #5: What was the best R&B song?</span>
-	<br>
-	<div id="answer_holder">
-				<input type="radio" name="option" class="option" value="0"><span class="answer">Really Love</span><br>
-				<input type="radio" name="option" class="option" value="1"><span class="answer">Earned it</span><br>
-				<input type="radio" name="option" class="option" value="2"><span class="answer">Let it Burn</span><br>
-				<input type="radio" name="option" class="option" value="3"><span class="answer">Shame</span><br>
-	</div>
-    </br>
-</div>
-
-</BODY>
-</HTML>
+</body>
+</html>
